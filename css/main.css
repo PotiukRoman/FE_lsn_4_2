@@ -1,0 +1,55 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+.header{
+    height: 50px;
+    background-color: #dadada;
+    font-family: 'Roboto', serif;
+    font-variation-settings: 'wght' 400;
+}
+
+.menu{
+    width: 30%;
+    height: 100%;
+    background-color: transparent;
+    margin-left: 60%;
+}
+
+.txt{
+    width: 10%;
+    height: 100%;
+    font-size: 30px;
+    text-align: center;
+    background-color: transparent;
+    padding-top: 10px;
+}
+
+.block{
+    float: left;
+}
+
+.menu-item{
+    width: 25%;
+    height: 100%;
+    border-top: 1px solid #cdcdcd;
+    border-left: 1px solid #cdcdcd;
+    border-bottom: 1px solid #cdcdcd;
+    background-color: transparent;
+    display: inline-block;
+    margin: 0 -2px;
+    text-align: center;
+    transition-duration: 0.3s;
+    transition-property: background-color;
+}
+
+.menu-item:hover{
+    background-color: #cdcdcd;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    line-height: 47px;
+    text-transform: capitalize;
+}
